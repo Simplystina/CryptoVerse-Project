@@ -561,7 +561,7 @@ input[type=text] {
   font-weight: 700;
 }
 .inner-details p{
-  font-weight: lighter;
+  font-weight: bold;
 }
 .sub-coindetails-container2 .inner-details{
   margin-right: 40px;
@@ -863,5 +863,29 @@ input[type=text] {
   }
   .data-stats span{
     font-size: 15px;
+  }
+  .sub-coindetails-container2 .inner-details{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .nav-links .link-name{
+    font-size: 10px;
+  }
+  .each-detail-title{
+    padding: 20px 20px;
+  }
+  .search-crypto{
+    text-align: center;
+    margin: 20px 0;
+  }
+  input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+    outline: 1px solid royalblue;
   }
 }
