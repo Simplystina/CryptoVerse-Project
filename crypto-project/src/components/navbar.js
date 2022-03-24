@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import {UnorderedListOutlined } from '@ant-design/icons';
+import {HomeOutlined, MoneyCollectOutlined, FundOutlined,BulbOutlined,UnorderedListOutlined } from '@ant-design/icons';
 import {Button, Menu, Typography, Avatar} from 'antd'
 import icon from '../images/cryptocurrency.png'
 import {Link} from 'react-router-dom'
@@ -48,10 +48,10 @@ const Navbar = ()=>{
         </div>
         <div className='nav-links-container'>
         {shownavbar && <ul className='nav-links'>
-                <li><Link className='link-name' to='/'>Home</Link></li>
-                <li><Link className='link-name' to='/exchange'>exchange</Link></li>
-                <li><Link className='link-name' to='/cryptocurrency'>cryptocurrency</Link></li>
-                <li><Link className='link-name' to='/news'>News</Link></li>
+                <li><Link className='link-name' to='/'><span><HomeOutlined/></span> Home</Link></li>
+                <li><Link className='link-name' to='/exchange'><span><MoneyCollectOutlined></MoneyCollectOutlined></span>exchange</Link></li>
+                <li><Link className='link-name' to='/cryptocurrency'><span><FundOutlined/></span>cryptocurrency</Link></li>
+                <li><Link className='link-name' to='/news'><span><BulbOutlined/></span>News</Link></li>
             </ul>}
         </div>
         </>
@@ -65,10 +65,10 @@ const Navbar = ()=>{
            <h2 className='title'>CryptoVerse</h2>
         </div>
         <ul className='links'>
-            <li><Link className='link-name' to='/'>Home</Link></li>
-            <li><Link className='link-name' to='/exchange'>exchange</Link></li>
-            <li><Link className='link-name' to='/cryptocurrency'>cryptocurrency</Link></li>
-            <li><Link className='link-name' to='/news'>News</Link></li>
+               <li><Link className='link-name' to='/'><span><HomeOutlined/></span> Home</Link></li>
+                <li><Link className='link-name' to='/exchange'><span><MoneyCollectOutlined></MoneyCollectOutlined></span>exchange</Link></li>
+                <li><Link className='link-name' to='/cryptocurrency'><span><FundOutlined/></span>cryptocurrency</Link></li>
+                <li><Link className='link-name' to='/news'><span><BulbOutlined/></span>News</Link></li>
         </ul>
     </div>)
 } 
