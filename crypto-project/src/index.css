@@ -895,4 +895,7 @@ input[type=text] {
   .news-container{
     margin: 5px;
   }
+  .details-linkurl-container{
+    margin: 10px 0px;
+  }
 }
