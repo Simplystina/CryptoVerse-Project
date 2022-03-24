@@ -211,9 +211,9 @@ Toggle nav bar
   padding: 10px 3px;
 }
 li span{
-  padding-right:10px;
+  padding-right:7px;
   color:var(--clr-primary-5);
-  font-size: 18px;
+  font-size: 16px;
 }
 .link-name{
   font-family: Arial, Helvetica, sans-serif;
@@ -590,14 +590,18 @@ input[type=text] {
   grid-template-columns: 1fr 1fr;
 }
 .each-coin-info h2{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   color: #0071bd;
   line-height: 15px;
 }
 .coin-info-description h3{
+  font-family: Arial, Helvetica, sans-serif;
   color: #0071bd;
   font-weight: 700;
+}
+.coin-info-description p{
+  font-family: Arial, Helvetica, sans-serif;
 }
 .underline{
   width: 4rem;
@@ -865,11 +869,11 @@ input[type=text] {
     font-size: 15px;
   }
   .sub-coindetails-container2 .inner-details{
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 5px;
+    margin-left: 8px;
   }
   .nav-links .link-name{
-    font-size: 10px;
+    font-size: 13px;
   }
   .each-detail-title{
     padding: 20px 20px;
@@ -887,5 +891,8 @@ input[type=text] {
     border: none;
     resize: none;
     outline: 1px solid royalblue;
+  }
+  .news-container{
+    margin: 5px;
   }
 }
