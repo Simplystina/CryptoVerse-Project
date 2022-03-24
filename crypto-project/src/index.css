@@ -79,6 +79,7 @@ code {
   background-color: #34495e;
   width: 100%;
   justify-content: space-between;
+  box-shadow: var(--dark-shadow), var(--light-shadow);
 }
 /****
 Toggle nav bar
@@ -291,9 +292,8 @@ li span{
   padding: 5px 15px;
 }
 .data-stats h4{
-  font-weight: 400;
   font-size: 18px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .data-stats span{
   font-weight: 600;
@@ -833,5 +833,35 @@ input[type=text] {
   ::placeholder{
     letter-spacing: 0px;
     text-align: justify;
+  }
+}
+@media screen and (max-width:480px) {
+  ::placeholder{
+    letter-spacing: 0px;
+    text-align: justify;
+  }
+  .nav-title{
+    padding-left: 0.5rem;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .nav-icon{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  .crypto-card-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .data-stats{
+    padding: 5px 10px;
+  }
+  .data-stats h4{
+    font-size: 15px;
+  }
+  .data-stats span{
+    font-size: 15px;
   }
 }
