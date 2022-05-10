@@ -6,4 +6,6 @@
 
 ### It displays the market value of each coin, displays the latest news happening and shows the latest information about a coin
 
+## The Api used to develop this application is the coin ranking api at Rapid Api
+
 The live url can be found  [here](https://crypto-verse-project.netlify.app/)
