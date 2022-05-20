@@ -118,6 +118,7 @@ Toggle nav bar
   z-index: 20;
   transition: all linear 2s;
   
+  
 }
 
 @keyframes showNav {
@@ -181,6 +182,7 @@ Toggle nav bar
   height: 100vh;
   background-color: #34495e;
   width: 17rem; 
+  box-shadow: var(--dark-shadow);
 }
 
 .logo-container{
@@ -189,11 +191,12 @@ Toggle nav bar
   margin-bottom: 30px;
 }
 .title{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Volkhov;
   color:#0071bd;
   padding-left: 0.2rem;
   font-size: 27px;
   font-weight: 700;
+  margin-top: 10px;
 }
 .icon{
   width: 45px;
@@ -216,7 +219,7 @@ li span{
   font-size: 16px;
 }
 .link-name{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   font-size: 15px;
   color: whitesmoke;
   text-transform: capitalize; 
@@ -256,12 +259,11 @@ li span{
   
 }
 .footer h4{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   font-size: 14px;
   color: whitesmoke;
   text-transform: capitalize; 
-  letter-spacing: 2px;
-
+  letter-spacing: 2px
   
 }
 .footer-love{
@@ -278,13 +280,13 @@ li span{
 /*********************/
 .section{
   display: flex;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
 }
 .heading{
   margin:5px 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 30px;
+  font-family: Volkhov;
+  font-weight: 500;
+  font-size: 35px;
 }
 .data-stats{
   display: grid;
@@ -292,24 +294,26 @@ li span{
   padding: 5px 15px;
 }
 .data-stats h4{
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: 400;
 }
 .data-stats span{
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
+  font-family: Poppins;
 }
 .heading-two{
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Volkhov;
   letter-spacing: 1px;
   text-transform: uppercase;
   align-items: center;
 }
 .heading-two h2{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600px;
 }
 /*** Cryptocurrency styles ***/
@@ -318,17 +322,18 @@ li span{
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   padding: 10px 20px;
- font-family: Arial, Helvetica, sans-serif;
+ font-family: Poppins;
 }
 .crypto-card{
   background-color: white;
   box-shadow: var(--dark-shadow);
   border-radius: var(--radius);
   transition: var(--transition);
+  padding: 0;
 }
 .crypto-card:hover{
   box-shadow: var(--light-shadow), var(--dark-shadow);
-  transform: scale(1.06);
+  transform: scale(1.08);
 }
 .icon-image{
   width: 30px;
@@ -343,16 +348,16 @@ li span{
 }
 
 .crypto-card-title h4{
-  margin: 5px;
+  margin: 10px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
 .crypto-card-text {
-  padding: 20px 15px;
+  padding: 15px;
 }
 .crypto-card-text p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins
 }
 /** remove default styling from react Link component **/
 .crypto-card-link, .crypto-card-link:hover, .crypto-card-link:focus, .crypto-card-link:active {
@@ -386,7 +391,7 @@ input[type=text] {
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   padding: 10px 20px;
- font-family:'Times New Roman', Times, serif;
+ font-family: Volkhov;
 }
 .news-title{
   display: flex;
@@ -397,6 +402,7 @@ input[type=text] {
   margin: 20px;
   line-height: 1.2rem;
   letter-spacing: 1px;
+  font-family: Volkhov;
 }
 .news-title img{
   width: 100px;
@@ -407,6 +413,7 @@ input[type=text] {
 }
 .news-desc{
   margin:10px 20px;
+  font-family: Poppins;
 }
 .crypto-news-card{
   background-color: white;
@@ -448,7 +455,7 @@ input[type=text] {
   list-style: none;
   font-size: 17px;
   text-transform: uppercase;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Poppins;
   background-color: #d9d9d9;
   width: 10rem;
   margin: 60px 20px;
@@ -464,7 +471,7 @@ input[type=text] {
   overflow-y: scroll;
   overflow-x: hidden;
   list-style: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   display: none;
   transition: linear 2s;
 }
@@ -517,7 +524,7 @@ input[type=text] {
 */
 .each-details-section{
   margin: 20px;
-  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: Volkhov;
 }
 .cryptodetails-title{
   text-align: center;
@@ -590,18 +597,19 @@ input[type=text] {
   grid-template-columns: 1fr 1fr;
 }
 .each-coin-info h2{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   text-align: center;
   color: #0071bd;
   line-height: 15px;
 }
 .coin-info-description h3{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
   color: #0071bd;
   font-weight: 700;
 }
 .coin-info-description p{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
+  line-height: 30px;
 }
 .underline{
   width: 4rem;

@@ -28,7 +28,7 @@ const Navbar = ()=>{
            setActiveMenu(true)
            //console.log(activeMenu)
        }
-   },[screenSize])
+   })
 
    const showNav = ()=>{
        setShownavbar(!shownavbar)
